@@ -2,7 +2,7 @@
 name = "tdd-forfun"
 version = "0.1.0"
 description = ""
-authors = ["Tim Ottinger <tottinge@industriallogic.com>"]
+authors = ["Tim Ottinger <tottinge@industriallogic.com>", "Perry Reid <wpreid@gmail.com>"]
 readme = "README.md"
 packages = [{include = "tdd_forfun"}]
 
