@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "tdd-forfun"
+version = "0.1.0"
+description = ""
+authors = ["Tim Ottinger <tottinge@industriallogic.com>"]
+readme = "README.md"
+packages = [{include = "tdd_forfun"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pytest = "^7.3.1"
+pytest-bdd = "^6.1.1"
+typer = "^0.9.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
